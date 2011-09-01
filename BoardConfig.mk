@@ -103,3 +103,6 @@ TARGET_RECOVERY_PRE_COMMAND := "echo 1 > /cache/.startrecovery; sync;"
 -include device/samsung/aries-common/Android.mk
 
 TARGET_OTA_ASSERT_DEVICE := galaxys,galaxysmtd,GT-I9000,GT-I9000M,GT-I9000T
+
+# dx
+TARGET_USES_16BPPSURFACE_FOR_OPAQUE := true
