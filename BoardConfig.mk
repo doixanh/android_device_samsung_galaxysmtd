@@ -104,3 +104,6 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 -include device/samsung/aries-common/Android.mk
 
 TARGET_OTA_ASSERT_DEVICE := galaxys,galaxysmtd,GT-I9000,GT-I9000M,GT-I9000T
+
+# dx
+TARGET_USES_16BPPSURFACE_FOR_OPAQUE := true
